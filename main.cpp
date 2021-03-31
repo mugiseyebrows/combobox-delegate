@@ -45,7 +45,6 @@ int main(int argc, char *argv[])
     Delegate* delegate = new Delegate(treeView);
     treeView->setItemDelegate(delegate);
 
-    //treeView->setEditTriggers(treeView->editTriggers() | )
     treeView->setEditTriggers(QAbstractItemView::AllEditTriggers);
 
     treeView->setModel(standardModel);
