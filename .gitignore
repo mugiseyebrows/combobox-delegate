@@ -1,0 +1,7 @@
+Makefile*
+*.pro.*
+debug/
+release/
+.qmake.stash
+ui_*
+moc_*
